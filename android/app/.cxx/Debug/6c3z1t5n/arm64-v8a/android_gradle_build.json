@@ -1,0 +1,48 @@
+{
+  "buildFiles": [
+    "C:\\Users\\ayush\\OneDrive\\Desktop\\new\\AIChatApp\\node_modules\\react-native-nitro-modules\\android\\build\\generated\\source\\codegen\\jni\\CMakeLists.txt",
+    "C:\\Users\\ayush\\OneDrive\\Desktop\\new\\AIChatApp\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\ayush\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\ayush\\OneDrive\\Desktop\\new\\AIChatApp\\android\\app\\.cxx\\Debug\\6c3z1t5n\\arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\ayush\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\ayush\\OneDrive\\Desktop\\new\\AIChatApp\\android\\app\\.cxx\\Debug\\6c3z1t5n\\arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "appmodules::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "appmodules",
+      "output": "C:\\Users\\ayush\\OneDrive\\Desktop\\new\\AIChatApp\\android\\app\\build\\intermediates\\cxx\\Debug\\6c3z1t5n\\obj\\arm64-v8a\\libappmodules.so",
+      "runtimeFiles": [
+        "C:\\Users\\ayush\\.gradle\\caches\\8.10.2\\transforms\\eb4b98dea289284ca2b26e9265bd49ab\\transformed\\fbjni-0.6.0\\prefab\\modules\\fbjni\\libs\\android.arm64-v8a\\libfbjni.so",
+        "C:\\Users\\ayush\\.gradle\\caches\\8.10.2\\transforms\\2fa3c78e855de2c4ef8aa6911c4216a0\\transformed\\react-android-0.76.0-debug\\prefab\\modules\\jsi\\libs\\android.arm64-v8a\\libjsi.so",
+        "C:\\Users\\ayush\\.gradle\\caches\\8.10.2\\transforms\\2fa3c78e855de2c4ef8aa6911c4216a0\\transformed\\react-android-0.76.0-debug\\prefab\\modules\\reactnative\\libs\\android.arm64-v8a\\libreactnative.so"
+      ]
+    },
+    "react_codegen_NitroModulesSpec::@472a82f9c57d3d3b8644": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "react_codegen_NitroModulesSpec"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "C:\\Users\\ayush\\AppData\\Local\\Android\\Sdk\\ndk\\27.1.12297006\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\ayush\\AppData\\Local\\Android\\Sdk\\ndk\\27.1.12297006\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,28 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Android
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+*.keystore
+!debug.keystore
+
+# React Native
+.expo/
+dist/
+web-build/
+
+# Metro
+.metro-health-check*
+
+# Gradle plugin cache
+node_modules/@react-native/gradle-plugin/.gradle/
+
+# Misc
+.DS_Store
+*.log
+patch_hermes.py

@@ -1,0 +1,24 @@
+# ninja log v5
+3	65	0	C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/android/app/.cxx/Debug/6c3z1t5n/armeabi-v7a/CMakeFiles/cmake.verify_globs	cb6dd4ca0dd625ef
+46	4212	7988221308893520	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/Props.cpp.o	7f4dbdb48b51d3f8
+84	3052	7988221297284330	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/States.cpp.o	4308b3066fe45086
+72	4090	7988221307653179	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/NitroModulesSpecJSI-generated.cpp.o	6df24e3e5dcac1f6
+57	3300	7988221299810226	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/EventEmitters.cpp.o	ef6a0803df7bd384
+2	4239	7988221309215245	CMakeFiles/appmodules.dir/C_/Users/ayush/OneDrive/Desktop/new/AIChatApp/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	ff8b1f84d08bd880
+96	3977	7988221306527637	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/ShadowNodes.cpp.o	4aa2b16391424729
+25	4038	7988221307107619	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/NitroModulesSpec-generated.cpp.o	e226b86f7c330f06
+35	4047	7988221307227674	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/ComponentDescriptors.cpp.o	82a97e09a906e675
+15	4608	7988221312718983	CMakeFiles/appmodules.dir/OnLoad.cpp.o	d8c2ab0646741921
+4608	4783	7988221314580894	C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/android/app/build/intermediates/cxx/Debug/6c3z1t5n/obj/armeabi-v7a/libappmodules.so	25d2f6e3ed93d978
+1	36	0	clean	4ec2da73cdbd9e68
+2	32	0	C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/android/app/.cxx/Debug/6c3z1t5n/armeabi-v7a/CMakeFiles/cmake.verify_globs	cb6dd4ca0dd625ef
+57	3043	7988314191995005	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/States.cpp.o	4308b3066fe45086
+28	3270	7988314194294391	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/EventEmitters.cpp.o	ef6a0803df7bd384
+49	3904	7988314200591572	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/ShadowNodes.cpp.o	4aa2b16391424729
+71	3991	7988314201380976	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/NitroModulesSpecJSI-generated.cpp.o	6df24e3e5dcac1f6
+64	4110	7988314202590649	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/Props.cpp.o	7f4dbdb48b51d3f8
+42	4112	7988314202691235	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/ComponentDescriptors.cpp.o	82a97e09a906e675
+35	4160	7988314203179410	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/NitroModulesSpec-generated.cpp.o	e226b86f7c330f06
+21	4257	7988314204082440	CMakeFiles/appmodules.dir/C_/Users/ayush/OneDrive/Desktop/new/AIChatApp/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	ff8b1f84d08bd880
+14	4591	7988314207400056	CMakeFiles/appmodules.dir/OnLoad.cpp.o	d8c2ab0646741921
+4591	4725	7988314208819107	C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/android/app/build/intermediates/cxx/Debug/6c3z1t5n/obj/armeabi-v7a/libappmodules.so	25d2f6e3ed93d978

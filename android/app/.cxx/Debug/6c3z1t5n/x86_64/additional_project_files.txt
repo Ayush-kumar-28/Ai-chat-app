@@ -1,0 +1,7 @@
+C:\Users\ayush\OneDrive\Desktop\new\AIChatApp\android\app\.cxx\Debug\6c3z1t5n\x86_64\NitroModulesSpec_autolinked_build\CMakeFiles\react_codegen_NitroModulesSpec.dir\NitroModulesSpec-generated.cpp.o
+C:\Users\ayush\OneDrive\Desktop\new\AIChatApp\android\app\.cxx\Debug\6c3z1t5n\x86_64\NitroModulesSpec_autolinked_build\CMakeFiles\react_codegen_NitroModulesSpec.dir\react\renderer\components\NitroModulesSpec\ComponentDescriptors.cpp.o
+C:\Users\ayush\OneDrive\Desktop\new\AIChatApp\android\app\.cxx\Debug\6c3z1t5n\x86_64\NitroModulesSpec_autolinked_build\CMakeFiles\react_codegen_NitroModulesSpec.dir\react\renderer\components\NitroModulesSpec\EventEmitters.cpp.o
+C:\Users\ayush\OneDrive\Desktop\new\AIChatApp\android\app\.cxx\Debug\6c3z1t5n\x86_64\NitroModulesSpec_autolinked_build\CMakeFiles\react_codegen_NitroModulesSpec.dir\react\renderer\components\NitroModulesSpec\NitroModulesSpecJSI-generated.cpp.o
+C:\Users\ayush\OneDrive\Desktop\new\AIChatApp\android\app\.cxx\Debug\6c3z1t5n\x86_64\NitroModulesSpec_autolinked_build\CMakeFiles\react_codegen_NitroModulesSpec.dir\react\renderer\components\NitroModulesSpec\Props.cpp.o
+C:\Users\ayush\OneDrive\Desktop\new\AIChatApp\android\app\.cxx\Debug\6c3z1t5n\x86_64\NitroModulesSpec_autolinked_build\CMakeFiles\react_codegen_NitroModulesSpec.dir\react\renderer\components\NitroModulesSpec\ShadowNodes.cpp.o
+C:\Users\ayush\OneDrive\Desktop\new\AIChatApp\android\app\.cxx\Debug\6c3z1t5n\x86_64\NitroModulesSpec_autolinked_build\CMakeFiles\react_codegen_NitroModulesSpec.dir\react\renderer\components\NitroModulesSpec\States.cpp.o

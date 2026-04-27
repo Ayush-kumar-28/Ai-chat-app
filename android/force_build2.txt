@@ -1,0 +1,395 @@
+Starting a Gradle Daemon, 1 busy and 1 incompatible and 14 stopped Daemons could not be reused, use --status for details
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources
+> Task :gradle-plugin:settings-plugin:classes
+> Task :gradle-plugin:settings-plugin:jar
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources
+> Task :gradle-plugin:react-native-gradle-plugin:classes
+> Task :gradle-plugin:react-native-gradle-plugin:jar
+> Task :app:generateAutolinkingPackageList
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:syncRNLlamaHtpAssets
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateDebugBuildConfig
+> Task :llama.rn:preBuild UP-TO-DATE
+> Task :llama.rn:preDebugBuild UP-TO-DATE
+> Task :react-native-fs:preBuild UP-TO-DATE
+> Task :react-native-fs:preDebugBuild UP-TO-DATE
+> Task :react-native-fs:writeDebugAarMetadata
+> Task :llama.rn:writeDebugAarMetadata
+> Task :app:generateDebugResValues
+> Task :llama.rn:generateDebugResValues
+> Task :llama.rn:generateDebugResources
+> Task :app:checkDebugAarMetadata
+> Task :llama.rn:packageDebugResources
+> Task :react-native-fs:generateDebugResValues
+> Task :react-native-fs:generateDebugResources
+> Task :react-native-fs:packageDebugResources
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :llama.rn:extractDeepLinksDebug
+> Task :react-native-fs:extractDeepLinksDebug
+> Task :app:parseDebugLocalResources
+> Task :llama.rn:compileDebugLibraryResources
+> Task :react-native-fs:compileDebugLibraryResources
+> Task :llama.rn:parseDebugLocalResources
+> Task :react-native-fs:parseDebugLocalResources
+
+> Task :react-native-fs:processDebugManifest
+package="com.rnfs" found in source AndroidManifest.xml: C:\Users\ayush\OneDrive\Desktop\new\AIChatApp\node_modules\react-native-fs\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.rnfs" from the source AndroidManifest.xml: C:\Users\ayush\OneDrive\Desktop\new\AIChatApp\node_modules\react-native-fs\android\src\main\AndroidManifest.xml.
+
+> Task :llama.rn:processDebugManifest
+package="com.rnllama" found in source AndroidManifest.xml: C:\Users\ayush\OneDrive\Desktop\new\AIChatApp\node_modules\llama.rn\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.rnllama" from the source AndroidManifest.xml: C:\Users\ayush\OneDrive\Desktop\new\AIChatApp\node_modules\llama.rn\android\src\main\AndroidManifest.xml.
+
+> Task :llama.rn:generateDebugRFile
+> Task :react-native-fs:generateDebugRFile
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :llama.rn:generateDebugBuildConfig
+> Task :llama.rn:javaPreCompileDebug
+> Task :react-native-fs:generateDebugBuildConfig
+
+> Task :llama.rn:compileDebugJavaWithJavac
+Note: C:\Users\ayush\OneDrive\Desktop\new\AIChatApp\node_modules\llama.rn\android\src\main\java\com\rnllama\RNLlamaPackage.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-fs:javaPreCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :llama.rn:bundleLibCompileToJarDebug
+
+> Task :react-native-fs:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-fs:bundleLibCompileToJarDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :llama.rn:mergeDebugShaders
+> Task :llama.rn:compileDebugShaders NO-SOURCE
+> Task :llama.rn:generateDebugAssets UP-TO-DATE
+> Task :llama.rn:packageDebugAssets
+> Task :react-native-fs:mergeDebugShaders
+> Task :react-native-fs:compileDebugShaders NO-SOURCE
+> Task :react-native-fs:generateDebugAssets UP-TO-DATE
+> Task :react-native-fs:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:desugarDebugFileDependencies
+> Task :llama.rn:bundleLibRuntimeToJarDebug
+> Task :llama.rn:processDebugJavaRes NO-SOURCE
+> Task :app:compressDebugAssets
+> Task :react-native-fs:processDebugJavaRes NO-SOURCE
+> Task :react-native-fs:bundleLibRuntimeToJarDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :llama.rn:bundleLibRuntimeToDirDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :react-native-fs:bundleLibRuntimeToDirDebug
+
+> Task :llama.rn:configureCMakeDebug[arm64-v8a]
+[CXX5304] This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+[CXX5304] This version only understands SDK XML versions up to 3 but an SDK XML file of version 4 was encountered. This can happen if you use versions of Android Studio and the command-line tools that were released at different times.
+
+> Task :app:mergeLibDexDebug
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeExtDexDebug
+> Task :llama.rn:buildCMakeDebug[arm64-v8a]
+C/C++: ninja: Entering directory `C:\Users\ayush\OneDrive\Desktop\new\AIChatApp\node_modules\llama.rn\android\.cxx\Debug\6j656136\arm64-v8a'
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:251:26: warning: 'extract_media_paths' has C-linkage specified, but returns user-defined type 'std::vector<std::string>' (aka 'vector<basic_string<char>>') which is incompatible with C [-Wreturn-type-c-linkage]
+C/C++:   251 | std::vector<std::string> extract_media_paths(JNIEnv *env, jobject params) {
+C/C++:       |                          ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:769:20: warning: object backing the pointer will be destroyed at the end of the full-expression [-Wdangling-gsl]
+C/C++:   769 |     auto sysinfo = common_params_get_system_info(defaultParams).c_str();
+C/C++:       |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1477:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1477 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1472:20: note: for type 'const std::exception &'
+C/C++:  1472 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1808:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1808 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1805:20: note: for type 'const std::exception &'
+C/C++:  1805 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1870:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1870 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1866:20: note: for type 'const std::exception &'
+C/C++:  1866 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: 5 warnings generated.
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:251:26: warning: 'extract_media_paths' has C-linkage specified, but returns user-defined type 'std::vector<std::string>' (aka 'vector<basic_string<char>>') which is incompatible with C [-Wreturn-type-c-linkage]
+C/C++:   251 | std::vector<std::string> extract_media_paths(JNIEnv *env, jobject params) {
+C/C++:       |                          ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:769:20: warning: object backing the pointer will be destroyed at the end of the full-expression [-Wdangling-gsl]
+C/C++:   769 |     auto sysinfo = common_params_get_system_info(defaultParams).c_str();
+C/C++:       |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1477:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1477 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1472:20: note: for type 'const std::exception &'
+C/C++:  1472 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1808:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1808 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1805:20: note: for type 'const std::exception &'
+C/C++:  1805 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1870:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1870 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1866:20: note: for type 'const std::exception &'
+C/C++:  1866 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: 5 warnings generated.
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:251:26: warning: 'extract_media_paths' has C-linkage specified, but returns user-defined type 'std::vector<std::string>' (aka 'vector<basic_string<char>>') which is incompatible with C [-Wreturn-type-c-linkage]
+C/C++:   251 | std::vector<std::string> extract_media_paths(JNIEnv *env, jobject params) {
+C/C++:       |                          ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:769:20: warning: object backing the pointer will be destroyed at the end of the full-expression [-Wdangling-gsl]
+C/C++:   769 |     auto sysinfo = common_params_get_system_info(defaultParams).c_str();
+C/C++:       |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1477:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1477 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1472:20: note: for type 'const std::exception &'
+C/C++:  1472 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1808:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1808 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1805:20: note: for type 'const std::exception &'
+C/C++:  1805 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1870:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1870 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1866:20: note: for type 'const std::exception &'
+C/C++:  1866 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: 5 warnings generated.
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:251:26: warning: 'extract_media_paths' has C-linkage specified, but returns user-defined type 'std::vector<std::string>' (aka 'vector<basic_string<char>>') which is incompatible with C [-Wreturn-type-c-linkage]
+C/C++:   251 | std::vector<std::string> extract_media_paths(JNIEnv *env, jobject params) {
+C/C++:       |                          ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:769:20: warning: object backing the pointer will be destroyed at the end of the full-expression [-Wdangling-gsl]
+C/C++:   769 |     auto sysinfo = common_params_get_system_info(defaultParams).c_str();
+C/C++:       |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1477:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1477 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1472:20: note: for type 'const std::exception &'
+C/C++:  1472 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1808:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1808 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1805:20: note: for type 'const std::exception &'
+C/C++:  1805 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1870:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1870 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1866:20: note: for type 'const std::exception &'
+C/C++:  1866 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: 5 warnings generated.
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:251:26: warning: 'extract_media_paths' has C-linkage specified, but returns user-defined type 'std::vector<std::string>' (aka 'vector<basic_string<char>>') which is incompatible with C [-Wreturn-type-c-linkage]
+C/C++:   251 | std::vector<std::string> extract_media_paths(JNIEnv *env, jobject params) {
+C/C++:       |                          ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:769:20: warning: object backing the pointer will be destroyed at the end of the full-expression [-Wdangling-gsl]
+C/C++:   769 |     auto sysinfo = common_params_get_system_info(defaultParams).c_str();
+C/C++:       |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1477:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1477 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1472:20: note: for type 'const std::exception &'
+C/C++:  1472 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1808:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1808 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1805:20: note: for type 'const std::exception &'
+C/C++:  1805 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1870:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1870 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1866:20: note: for type 'const std::exception &'
+C/C++:  1866 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: 5 warnings generated.
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:251:26: warning: 'extract_media_paths' has C-linkage specified, but returns user-defined type 'std::vector<std::string>' (aka 'vector<basic_string<char>>') which is incompatible with C [-Wreturn-type-c-linkage]
+C/C++:   251 | std::vector<std::string> extract_media_paths(JNIEnv *env, jobject params) {
+C/C++:       |                          ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:769:20: warning: object backing the pointer will be destroyed at the end of the full-expression [-Wdangling-gsl]
+C/C++:   769 |     auto sysinfo = common_params_get_system_info(defaultParams).c_str();
+C/C++:       |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1477:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1477 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1472:20: note: for type 'const std::exception &'
+C/C++:  1472 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1808:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1808 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1805:20: note: for type 'const std::exception &'
+C/C++:  1805 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1870:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1870 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1866:20: note: for type 'const std::exception &'
+C/C++:  1866 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: 5 warnings generated.
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:251:26: warning: 'extract_media_paths' has C-linkage specified, but returns user-defined type 'std::vector<std::string>' (aka 'vector<basic_string<char>>') which is incompatible with C [-Wreturn-type-c-linkage]
+C/C++:   251 | std::vector<std::string> extract_media_paths(JNIEnv *env, jobject params) {
+C/C++:       |                          ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:769:20: warning: object backing the pointer will be destroyed at the end of the full-expression [-Wdangling-gsl]
+C/C++:   769 |     auto sysinfo = common_params_get_system_info(defaultParams).c_str();
+C/C++:       |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1477:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1477 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1472:20: note: for type 'const std::exception &'
+C/C++:  1472 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1808:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1808 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1805:20: note: for type 'const std::exception &'
+C/C++:  1805 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1870:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1870 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1866:20: note: for type 'const std::exception &'
+C/C++:  1866 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: 5 warnings generated.
+
+> Task :llama.rn:configureCMakeDebug[x86_64]
+
+> Task :llama.rn:buildCMakeDebug[x86_64]
+C/C++: ninja: Entering directory `C:\Users\ayush\OneDrive\Desktop\new\AIChatApp\node_modules\llama.rn\android\.cxx\Debug\6j656136\x86_64'
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:251:26: warning: 'extract_media_paths' has C-linkage specified, but returns user-defined type 'std::vector<std::string>' (aka 'vector<basic_string<char>>') which is incompatible with C [-Wreturn-type-c-linkage]
+C/C++:   251 | std::vector<std::string> extract_media_paths(JNIEnv *env, jobject params) {
+C/C++:       |                          ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:769:20: warning: object backing the pointer will be destroyed at the end of the full-expression [-Wdangling-gsl]
+C/C++:   769 |     auto sysinfo = common_params_get_system_info(defaultParams).c_str();
+C/C++:       |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1477:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1477 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1472:20: note: for type 'const std::exception &'
+C/C++:  1472 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1808:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1808 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1805:20: note: for type 'const std::exception &'
+C/C++:  1805 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1870:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1870 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1866:20: note: for type 'const std::exception &'
+C/C++:  1866 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: 5 warnings generated.
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:251:26: warning: 'extract_media_paths' has C-linkage specified, but returns user-defined type 'std::vector<std::string>' (aka 'vector<basic_string<char>>') which is incompatible with C [-Wreturn-type-c-linkage]
+C/C++:   251 | std::vector<std::string> extract_media_paths(JNIEnv *env, jobject params) {
+C/C++:       |                          ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:769:20: warning: object backing the pointer will be destroyed at the end of the full-expression [-Wdangling-gsl]
+C/C++:   769 |     auto sysinfo = common_params_get_system_info(defaultParams).c_str();
+C/C++:       |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1477:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1477 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1472:20: note: for type 'const std::exception &'
+C/C++:  1472 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1808:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1808 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1805:20: note: for type 'const std::exception &'
+C/C++:  1805 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1870:20: warning: exception of type 'const std::runtime_error &' will be caught by earlier handler [-Wexceptions]
+C/C++:  1870 |     } catch (const std::runtime_error& e) {
+C/C++:       |                    ^
+C/C++: C:/Users/ayush/OneDrive/Desktop/new/AIChatApp/node_modules/llama.rn/android/src/main/jni.cpp:1866:20: note: for type 'const std::exception &'
+C/C++:  1866 |     } catch (const std::exception &e) {
+C/C++:       |                    ^
+C/C++: 5 warnings generated.
+
+> Task :llama.rn:mergeDebugJniLibFolders
+> Task :react-native-fs:mergeDebugJniLibFolders
+> Task :react-native-fs:mergeDebugNativeLibs NO-SOURCE
+> Task :app:validateSigningDebug
+> Task :react-native-fs:copyDebugJniLibsProjectOnly
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :llama.rn:extractDebugAnnotations
+> Task :llama.rn:extractDeepLinksForAarDebug
+> Task :llama.rn:mergeDebugGeneratedProguardFiles
+> Task :llama.rn:mergeDebugConsumerProguardFiles
+> Task :llama.rn:prepareDebugArtProfile
+> Task :llama.rn:prepareLintJarForPublish
+> Task :react-native-fs:stripDebugDebugSymbols NO-SOURCE
+> Task :react-native-fs:copyDebugJniLibsProjectAndLocalJars
+> Task :react-native-fs:extractDebugAnnotations
+> Task :react-native-fs:extractDeepLinksForAarDebug
+> Task :react-native-fs:mergeDebugGeneratedProguardFiles
+> Task :react-native-fs:mergeDebugConsumerProguardFiles
+> Task :react-native-fs:prepareDebugArtProfile
+> Task :react-native-fs:prepareLintJarForPublish
+> Task :llama.rn:mergeDebugJavaResource
+> Task :react-native-fs:mergeDebugJavaResource
+> Task :app:processDebugResources FAILED
+> Task :llama.rn:mergeDebugNativeLibs
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:processDebugResources'.
+> Could not resolve all files for configuration ':app:debugRuntimeClasspath'.
+   > Failed to transform hermes-android-0.76.0-debug.aar (com.facebook.react:hermes-android:0.76.0) to match attributes {artifactType=android-compiled-dependencies-resources, com.android.build.api.attributes.BuildTypeAttr=debug, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.libraryelements=aar, org.gradle.status=release, org.gradle.usage=java-runtime}.
+      > Execution failed for AarResourcesCompilerTransform: C:\Users\ayush\.gradle\caches\8.10.2\transforms\625a465f2d469d8d19283ad98e5e7151\transformed\hermes-android-0.76.0-debug.
+         > C:\Users\ayush\.gradle\caches\8.10.2\transforms\625a465f2d469d8d19283ad98e5e7151\transformed\hermes-android-0.76.0-debug\AndroidManifest.xml
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 2m 36s
+99 actionable tasks: 94 executed, 5 up-to-date

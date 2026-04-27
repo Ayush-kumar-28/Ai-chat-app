@@ -1,0 +1,83 @@
+Starting a Gradle Daemon, 1 busy and 1 incompatible and 10 stopped Daemons could not be reused, use --status for details
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources
+> Task :gradle-plugin:settings-plugin:classes
+> Task :gradle-plugin:settings-plugin:jar
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources
+> Task :gradle-plugin:react-native-gradle-plugin:classes
+> Task :gradle-plugin:react-native-gradle-plugin:jar
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:syncRNLlamaHtpAssets UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :llama.rn:preBuild UP-TO-DATE
+> Task :llama.rn:preDebugBuild UP-TO-DATE
+> Task :llama.rn:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-fs:preBuild UP-TO-DATE
+> Task :react-native-fs:preDebugBuild UP-TO-DATE
+> Task :react-native-fs:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :llama.rn:generateDebugResValues UP-TO-DATE
+> Task :llama.rn:generateDebugResources UP-TO-DATE
+> Task :llama.rn:packageDebugResources UP-TO-DATE
+> Task :react-native-fs:generateDebugResValues UP-TO-DATE
+> Task :react-native-fs:generateDebugResources UP-TO-DATE
+> Task :react-native-fs:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :llama.rn:extractDeepLinksDebug UP-TO-DATE
+> Task :llama.rn:processDebugManifest UP-TO-DATE
+> Task :react-native-fs:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-fs:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :llama.rn:compileDebugLibraryResources UP-TO-DATE
+> Task :llama.rn:parseDebugLocalResources UP-TO-DATE
+> Task :llama.rn:generateDebugRFile UP-TO-DATE
+> Task :react-native-fs:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-fs:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-fs:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:processDebugResources'.
+> Could not resolve all files for configuration ':app:debugRuntimeClasspath'.
+   > Failed to transform hermes-android-0.76.0-debug.aar (com.facebook.react:hermes-android:0.76.0) to match attributes {artifactType=android-compiled-dependencies-resources, com.android.build.api.attributes.BuildTypeAttr=debug, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.libraryelements=aar, org.gradle.status=release, org.gradle.usage=java-runtime}.
+      > Execution failed for AarResourcesCompilerTransform: C:\Users\ayush\.gradle\caches\8.10.2\transforms\625a465f2d469d8d19283ad98e5e7151\transformed\hermes-android-0.76.0-debug.
+         > C:\Users\ayush\.gradle\caches\8.10.2\transforms\625a465f2d469d8d19283ad98e5e7151\transformed\hermes-android-0.76.0-debug\AndroidManifest.xml
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 5s
+48 actionable tasks: 10 executed, 38 up-to-date

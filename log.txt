@@ -1,0 +1,326 @@
+﻿--------- beginning of system
+04-27 11:01:45.583  1964  4594 E ShortcutService: Invalid icon type in shortcut 97959865766140@lid. Bitmaps are not allowed in long-lived shortcuts. Use Resource icons, or Uri-based icons instead.
+04-27 11:01:46.247  1964  3080 E PersistenceController: SettingNotFoundException: sv_custom_ai_icon_enabled
+--------- beginning of main
+04-27 11:01:46.260  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.293  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.307  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.323  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.340  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.343 23814 23830 E QT      : [QT]file does not exist
+04-27 11:01:46.343 23814 23830 E QT      : [QT]file does not exist
+04-27 11:01:46.350  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.360  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+--------- beginning of crash
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: FATAL EXCEPTION: main
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: Process: com.aichatapp, PID: 23814
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: java.lang.UnsatisfiedLinkError: dlopen failed: library "libhermes_executor.so" not found
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at java.lang.Runtime.loadLibrary0(Runtime.java:1097)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at java.lang.Runtime.loadLibrary0(Runtime.java:1019)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at java.lang.System.loadLibrary(System.java:1765)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at com.facebook.soloader.nativeloader.SystemDelegate.loadLibrary(SystemDelegate.java:24)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:52)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at com.facebook.soloader.nativeloader.NativeLoader.loadLibrary(NativeLoader.java:30)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at com.facebook.soloader.SoLoader.loadLibrary(SoLoader.java:812)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.loadLibrary(HermesExecutor.java:27)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at com.facebook.hermes.reactexecutor.HermesExecutor.<clinit>(HermesExecutor.java:20)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.getDefaultJSExecutorFactory(ReactInstanceManagerBuilder.java:407)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at com.facebook.react.ReactInstanceManagerBuilder.build(ReactInstanceManagerBuilder.java:349)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.createReactInstanceManager(ReactNativeHost.java:87)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at com.facebook.react.ReactNativeHost.getReactInstanceManager(ReactNativeHost.java:57)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at com.facebook.react.ReactDelegate.loadApp(ReactDelegate.java:301)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.loadApp(ReactActivityDelegate.java:137)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at com.facebook.react.ReactActivityDelegate.onCreate(ReactActivityDelegate.java:132)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at com.facebook.react.ReactActivity.onCreate(ReactActivity.java:47)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:9149)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:9127)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1526)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4156)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4365)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:112)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:174)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:109)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:81)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2751)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:112)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:268)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:384)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8936)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+04-27 11:01:46.366 23814 23814 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:907)
+04-27 11:01:46.371  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.388  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.400  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.417  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.434  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.450  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.466  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.482  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.504  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.522  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.535  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.545  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.559  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.570  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.581  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.592  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.603  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.614  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.626  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.636  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.647  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.658  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.669  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.681  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.691  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.876  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.898  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.901  1964  2747 E PersistenceController: SettingNotFoundException: sv_custom_ai_icon_enabled
+04-27 11:01:46.909  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.918  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.924  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.935  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.946  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.957  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.968  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.979  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:46.990  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.001  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.012  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.023  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.035  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.045  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.057  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.068  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.079  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.090  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.101  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.111  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.123  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.134  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.145  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.156  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.167  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.178  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.189  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.200  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.211  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.222  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.233  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.245  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.255  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.267  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.278  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.289  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.300  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.311  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.322  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.333  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.344  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.355  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.366  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.377  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.388  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.399  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.410  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.422  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.433  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.444  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.455  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.466  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.481  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.489  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.500  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.513  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.521  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.529  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.538  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.546  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.554  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.562  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.571  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.579  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.587  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.595  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.604  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.612  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.620  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.628  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.637  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.645  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.653  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.662  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.670  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.678  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.687  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.695  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.703  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.712  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.720  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.728  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.737  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.745  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.753  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.761  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.770  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.778  1349  1363 E mtkpower@impl: [setMode] unknown type
+04-27 11:01:47.778  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.787  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.803  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.812  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.829  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.836  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.847  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.860  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.870  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.881  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.892  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.903  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.914  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.925  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.936  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.947  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.958  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.969  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.980  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:47.991  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.002  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.013  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.025  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.036  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.047  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.057  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.068  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.079  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.090  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.102  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.113  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.124  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.135  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.145  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.155  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.168  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.179  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.190  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.201  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.212  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.223  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.234  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.246  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.256  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.268  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.278  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.287  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.301  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.312  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.323  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.334  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.343  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.356  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.365  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.378  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.389  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.400  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.409  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.422  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.433  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.442  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.456  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.467  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.486  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.498  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.511  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.520  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.533  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.544  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.555  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.566  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.577  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.588  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.599  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.611  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.621  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.632  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.644  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.654  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.666  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.677  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.688  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.699  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.710  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.721  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.732  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.743  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.754  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.765  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.777  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.788  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.798  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.810  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.821  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.832  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.843  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.854  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.865  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.876  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.888  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.899  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.910  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.921  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.934  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.942  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.951  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.959  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.967  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.975  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.984  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:48.992  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.000  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.009  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.017  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.025  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.033  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.042  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.050  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.058  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.066  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.075  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.084  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.091  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.100  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.108  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.116  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.125  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.133  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.141  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.150  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.158  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.166  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.175  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.183  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.191  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.199  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.208  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.216  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.224  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.233  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.241  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.249  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.257  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.266  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.274  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.282  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.290  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.299  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.307  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.316  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.324  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.332  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.340  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.351  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.357  1349  1363 E mtkpower@impl: [setMode] unknown type
+04-27 11:01:49.359  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.367  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.375  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
+04-27 11:01:49.383  1401  1401 E HWC2    : Invalid CT ID. displayId: 0
